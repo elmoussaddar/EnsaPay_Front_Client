@@ -29,9 +29,9 @@ export class ClientService {
 	
 
 	constructor(private http: HttpClient) {
-		this.clientUrl = "http://localhost:8080/api/auth/";
-		this.clientUrlFacture="http://localhost:8080/facture/";
-		this.clientUrlVirement="http://localhost:8080/virement/";
+		this.clientUrl = "https://ensapay-backend-springboot.herokuapp.com/api/auth/";
+		this.clientUrlFacture="https://ensapay-backend-springboot.herokuapp.com/facture/";
+		this.clientUrlVirement="https://ensapay-backend-springboot.herokuapp.com/virement/";
 	}
 
  
